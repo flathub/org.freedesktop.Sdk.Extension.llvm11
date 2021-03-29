@@ -50,10 +50,6 @@
         },
         "cflags": "-g0",
         "cxxflags": "-g0",
-        "env": {
-          "CC": "clang",
-          "CXX": "clang++"
-        },
         "ldflags": "-fuse-ld=lld"
       },
       "config-opts": [
