@@ -79,7 +79,10 @@
         "-DLLVM_INSTALL_TOOLCHAIN_ONLY:BOOL=OFF",
         "-DCMAKE_C_FLAGS_RELWITHDEBINFO='-DNDEBUG'",
         "-DCMAKE_CXX_FLAGS_RELWITHDEBINFO='-DNDEBUG'",
-        "-DLLVM_ENABLE_LLD:BOOL=ON"
+        "-DLLVM_ENABLE_LLD:BOOL=ON",
+        "-DLLVM_ENABLE_LTO=Thin",
+        "-DCMAKE_AR=/usr/bin/llvm-ar",
+        "-DCMAKE_RANLIB=/usr/bin/llvm-ranlib"
       ],
       "cleanup": [
         "libLLVM*.a"
