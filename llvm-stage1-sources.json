@@ -1,0 +1,16 @@
+[
+    {
+        "type": "archive",
+        "url": "https://github.com/llvm/llvm-project/releases/download/llvmorg-11.1.0/llvm-project-11.1.0.src.tar.xz",
+        "sha256": "74d2529159fd118c3eac6f90107b5611bccc6f647fdea104024183e8d5e25831",
+        "x-checker-data": {
+            "type": "anitya",
+            "project-id": 1830,
+            "stable-only": true,
+            "versions": {
+                "<": "12.0.0"
+            },
+            "url-template": "https://github.com/llvm/llvm-project/releases/download/llvmorg-$version/llvm-project-$version.src.tar.xz"
+        }
+    }
+]
